@@ -1,0 +1,2 @@
+docker build -t ocrmypdf-deps .
+docker run --rm -v $(pwd):/output ocrmypdf-deps
